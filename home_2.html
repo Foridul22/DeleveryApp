@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css output link  -->
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>Home</title>
+    <!-- tailwind cdn  -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+      .swiper-pagination-bullets {
+        bottom: var(--swiper-pagination-bottom, 0px);
+        top: var(--swiper-pagination-top, auto);
+        left: 0;
+        width: 100%;
+      }
+      .swiper-pagination-bullet-active {
+        opacity: var(--swiper-pagination-bullet-opacity, 1);
+        background: #32b768;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="mx-auto max-w-7xl h-full bg-gray-400">
+        <div class="max-w-[375px] h-screen bg-white bg-opacity-85 mx-auto">
+          <div class="flex flex-row justify-around items-center pt-5 pb-5">
+            <img src="./images/icons/mobile_menu.png" alt="mobile menu icon" />
+
+            <div class="flex flex-row justify-center items-center gap-2">
+              <img src="./images/icons/location.png" alt="location icon" />
+              <p class="text-xs font-medium tetx-[#4B5563]">
+                Agrabad 435, Chittagong
+              </p>
+            </div>
+            <img src="./images/icons/image.png" alt="" />
+          </div>
+          <div class="pb-5">
+            <div
+              class="flex gap-2 justify-start items-center bg-[#E6E7E9] w-[280px] h-[36px] rounded-xl pl-14 mx-auto"
+            >
+              <img
+                class="w-4 h-4"
+                src="./images/icons/search.png"
+                alt="Search Icon"
+              />
+              <p class="text-xs font-normal text-[#9CA3AF]">Search</p>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center pb-5">
+              <div class="pl-6">
+                <h2 class="text-base font-semibold text-[#1F2937] pb-1">
+                  Today New Arivable
+                </h2>
+                <p class="text-xs font-medium text-[#6B7280]">
+                  Best of the today food list update
+                </p>
+              </div>
+              <div class="flex justify-center items-center gap-2 pr-5">
+                <p class="text-xs font-medium text-[#6B7280]">see All</p>
+                <img src="./images/icons/side_arrow.png" alt="side arrow" />
+              </div>
+            </div>
+            <div>
+              <div class="pl-10 mx-auto pb-3">
+                <!-- Swiper -->
+                <div class="swiper mySwiper2">
+                  <div class="swiper-wrapper pb-8">
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <div
+                          class="mx-auto w-[148px] h-[196px] flex flex-col justify-center items-center bg-white rounded-2xl shadow"
+                        >
+                          <img
+                            class="text-center w-[128px] h-[103px] pb-2"
+                            src="./images/img3.png"
+                          />
+                          <h2 class="text-base font-semibold text-[#1F2937]">
+                            Chicken Biryani
+                          </h2>
+                          <div
+                            class="flex gap-1 items-start mx-auto justify-center pl-2"
+                          >
+                            <img src="./images/icons/location.png" />
+                            <p class="text-[10px] font-medium text-[#6B7280]">
+                              Ambrosia Hotel & Restaurant
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <div
+                          class="mx-auto w-[148px] h-[196px] flex flex-col justify-center items-center bg-white rounded-2xl shadow"
+                        >
+                          <img
+                            class="text-center w-[128px] h-[103px] pb-2"
+                            src="./images/img4.png"
+                          />
+                          <h2 class="text-base font-semibold text-[#1F2937]">
+                            Chicken Biryani
+                          </h2>
+                          <div
+                            class="flex gap-1 items-start mx-auto justify-center pl-2"
+                          >
+                            <img src="./images/icons/location.png" />
+                            <p class="text-[10px] font-medium text-[#6B7280]">
+                              Ambrosia Hotel & Restaurant
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <div
+                          class="mx-auto w-[148px] h-[196px] flex flex-col justify-center items-center bg-white rounded-2xl shadow"
+                        >
+                          <img
+                            class="text-center w-[128px] h-[103px] pb-2"
+                            src="./images/img5.png"
+                          />
+                          <h2 class="text-base font-semibold text-[#1F2937]">
+                            Chicken Biryani
+                          </h2>
+                          <div
+                            class="flex gap-1 items-start mx-auto justify-center pl-2"
+                          >
+                            <img src="./images/icons/location.png" />
+                            <p class="text-[10px] font-medium text-[#6B7280]">
+                              Ambrosia Hotel & Restaurant
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+
+                    <div class="swiper-slide">
+                      <a href="#">
+                        <div
+                          class="mx-auto w-[148px] h-[196px] flex flex-col justify-center items-center bg-white rounded-2xl shadow"
+                        >
+                          <img
+                            class="text-center w-[128px] h-[103px] pb-2"
+                            src="./images/img3.png"
+                          />
+                          <h2 class="text-base font-semibold text-[#1F2937]">
+                            Chicken Biryani
+                          </h2>
+                          <div
+                            class="flex gap-1 items-start mx-auto justify-center pl-2"
+                          >
+                            <img src="./images/icons/location.png" />
+                            <p class="text-[10px] font-medium text-[#6B7280]">
+                              Ambrosia Hotel & Restaurant
+                            </p>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div>
+            <div class="flex justify-between items-center pb-5">
+              <div class="pl-6">
+                <h2 class="text-base font-semibold text-[#1F2937] pb-1">
+                  Booking Restaurant
+                </h2>
+                <p class="text-xs font-medium text-[#6B7280]">
+                  Check your city Near by Restaurant
+                </p>
+              </div>
+              <div class="flex justify-center items-center gap-2 pr-5">
+                <p class="text-xs font-medium text-[#6B7280]">see All</p>
+                <img src="./images/icons/side_arrow.png" alt="side arrow" />
+              </div>
+            </div>
+
+            <div class="pb-5">
+              <a href="#">
+                <div
+                  class="mx-auto w-[340px] h-[88px] flex items-center bg-white rounded-2xl shadow-lg pl-5 mb-2"
+                >
+                  <img class="text-center pr-5" src="./images/img6.png" />
+                  <div class="flex flex-col">
+                    <h2 class="pb-2 text-base font-semibold text-[#1F2937]">
+                      Ambrosia Hotel & Restaurant
+                    </h2>
+                    <div class="flex gap-1 items-start mx-auto justify-center">
+                      <img
+                        class="w-[64] h-[64]"
+                        src="./images/icons/location.png"
+                      />
+                      <p
+                        class="w-[125px] text-[10px] font-medium text-[#6B7280]"
+                      >
+                        kazi Deiry, Taiger Pass Chittagong
+                      </p>
+                      <button
+                        class="w-[75px] h-[26px] text-xs text-white font-semibold bg-[#32B768] rounded-lg"
+                      >
+                        Book
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+
+              <a href="#">
+                <div
+                  class="mx-auto w-[340px] h-[88px] flex items-center bg-white rounded-2xl shadow-lg pl-5 mb-3"
+                >
+                  <img class="text-center pr-5" src="./images/img7.png" />
+                  <div class="flex flex-col">
+                    <h2 class="pb-2 text-base font-semibold text-[#1F2937]">
+                      Tava Restaurant
+                    </h2>
+                    <div class="flex gap-1 items-start mx-auto justify-center">
+                      <img
+                        class="w-[64] h-[64]"
+                        src="./images/icons/location.png"
+                      />
+                      <p
+                        class="w-[125px] text-[10px] font-medium text-[#6B7280]"
+                      >
+                        Zakir Hossain Rd, Chittagong
+                      </p>
+                      <button
+                        class="w-[75px] h-[26px] text-xs text-white font-semibold bg-[#32B768] rounded-lg"
+                      >
+                        Book
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#">
+                <div
+                  class="mx-auto w-[340px] h-[88px] flex items-center bg-white rounded-2xl shadow-lg pl-5 mb-8"
+                >
+                  <img class="text-center pr-5" src="./images/img6.png" />
+                  <div class="flex flex-col">
+                    <h2 class="pb-2 text-base font-semibold text-[#1F2937]">
+                      Haatkhola
+                    </h2>
+                    <div class="flex gap-1 items-start mx-auto justify-center">
+                      <img
+                        class="w-[64] h-[64]"
+                        src="./images/icons/location.png"
+                      />
+                      <p
+                        class="w-[125px] text-[10px] font-medium text-[#6B7280]"
+                      >
+                        6 Surson Road, Chittagong
+                      </p>
+                      <button
+                        class="w-[75px] h-[26px] text-xs text-white font-semibold bg-[#32B768] rounded-lg"
+                      >
+                        Book
+                      </button>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+
+          <div
+            class="w-[375px] h-[64px] bg-[#FFFFFF] rounded-t-2xl bottom-0 fixed"
+          >
+            <div class="flex justify-around items-center text-center pt-4">
+              <a href="#">
+                <img
+                  class="w-[36px] h-[36px]"
+                  src="./images/icons/active_envolape.png"
+                  alt=""
+                />
+              </a>
+
+              <a href="#">
+                <img
+                  class="w-[36px] h-[36px]"
+                  src="./images/icons/menu.png"
+                  alt=""
+                />
+              </a>
+
+              <a href="#">
+                <img
+                  class="w-[36px] h-[36px]"
+                  src="./images/icons/contact.png"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+
+    <script>
+      var swiper = new Swiper(".mySwiper2", {
+        // slidesPerView: 2.3,
+        pagination: {
+          el: ".swiper-pagination2",
+          clickable: true,
+        },
+        breakpoints: {
+          640: {
+            slidesPerView: 2.2,
+            spaceBetween: 10,
+          },
+          768: {
+            slidesPerView: 2.2,
+            spaceBetween: 10,
+          },
+          1024: {
+            slidesPerView: 2.3,
+            spaceBetween: 20,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

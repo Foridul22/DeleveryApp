@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- css output link  -->
+    <link rel="stylesheet" href="src/output.css" />
+    <!-- google font link  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Link Swiper's CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+
+    <title>Home</title>
+    <!-- tailwind cdn  -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <style>
+      .swiper-pagination-bullets {
+        bottom: var(--swiper-pagination-bottom, 0px);
+        top: var(--swiper-pagination-top, auto);
+        left: 0;
+        width: 100%;
+      }
+      .swiper-pagination-bullet-active {
+        opacity: var(--swiper-pagination-bullet-opacity, 1);
+        background: #32b768;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <div class="mx-auto max-w-7xl h-full bg-gray-400">
+        <div
+          class="bg-image max-w-[375px] px-4 h-screen mx-auto relative overflow-y-auto"
+        >
+          <img
+            class="fixed top-0 left-0 w-full h-full object-cover z-0"
+            src="./images/map.png"
+            alt=""
+          />
+
+          <div class="flex items-center pt-10 pb-5 relative z-10">
+            <img class="pr-3" src="./images/icons/back_arrow.png" alt="" />
+
+            <div
+              class="flex gap-2 justify-start items-center bg-white w-[232px] h-[36px] rounded-xl pl-6 mx-auto"
+            >
+              <img
+                class="w-4 h-4"
+                src="./images/icons/search.png"
+                alt="Search Icon"
+              />
+              <p class="text-xs font-normal text-[#9CA3AF] bg-white">Search</p>
+            </div>
+
+            <img class="pl-3" src="./images/icons/image.png" alt="" />
+          </div>
+
+          <!-- bottom menu  -->
+          <div
+            class="w-full h-[64px] bg-[#FFFFFF] rounded-t-2xl bottom-0 left-0 fixed z-40"
+          >
+            <div class="flex justify-around items-center text-center pt-4">
+              <img
+                class="w-[36px] h-[36px]"
+                src="./images/icons/active_envolape.png"
+                alt=""
+              />
+              <img
+                class="w-[36px] h-[36px]"
+                src="./images/icons/menu.png"
+                alt=""
+              />
+              <img
+                class="w-[36px] h-[36px]"
+                src="./images/icons/contact.png"
+                alt=""
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
